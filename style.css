@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Kanit:wght@700&family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Kanit:wght@700&family=Kdam+Thmor+Pro&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Kanit:wght@700&family=Kdam+Thmor+Pro&family=Rajdhani:wght@300&family=Sarabun:wght@100&display=swap');
+
+
+*{
+margin :0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    color:white;
+}
+html,body {
+height: 100%;
+width: 100%;
+background-color: black;
+}
+#mainimg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainimg img{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+}
+#navbar
+{
+    height:70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav2
+{
+    font-size: large;
+    text-decoration: none;
+    gap: 20vw;
+}
+#nav2 a
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 5vw;
+    font-size: 23px;
+}
+#info
+{
+    height: 85vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top:35vh;
+    left: 5vw;
+}
+#info #heading h1{
+    font-size: 44px;
+    text-decoration: none;
+    font-weight: 100;
+}
+#info h1{
+    font-size: 54px;
+}
+
+strong{
+    color: rgb(197, 79, 79);
+}
+
+#aboutsec
+{
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+#textsec
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-140px;
+    gap:17px;
+}
+#textsec #para{
+    width: 90%;
+}
+#textsec h1{
+    text-transform: uppercase;
+}
+#textsec p{
+    font-size: 20px;
+    font-weight: 100;
+}
+#about1 img{
+    height: 70vh;
+    border-radius: 7%;
+}
+#about1
+{
+    padding-left: 12vw;
+}
+#about2
+{
+    position: relative;
+    top:70px;
+}
+#about2 h1{
+ font-size: 64px;
+}
+#about2 p{
+    color:rgb(161, 155, 155);
+   
+}
+#skillsec
+{
+    position: relative;
+    top:-100px;
+    /* left:40px; */
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+}
+#skillsec a{
+    text-decoration: none;
+    color:rgb(173, 166, 166);
+    /* text-transform: uppercase; */
+    font-size: 23px;
+}
+#skillinfo{
+    position: relative;
+    top:-7vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#skillinfo h2{
+    color:rgb(186, 80, 80);
+    font-size: 19px;
+}
+#skillinfo h3{
+    color: rgb(150, 143, 143);
+    font-size: 17.56px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+#service{
+    height: 77vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+#service h1{
+    font-size:60px;
+    padding-left: 12vw;
+    text-transform: uppercase;
+}
+#boxes{
+    position: relative;
+    left: 12vw;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.box
+{
+    height: 340px;
+    width: 370px;
+    border-radius: 7%;
+    background-color:#2d2b2b;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box #headbox h1{
+    position: relative;
+    left: -190px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.box #parabox p{
+    color:rgba(255, 255, 255, 0.639);
+    font-weight: 100;   
+}
+.box #parabox{
+    width: 80%;
+}
+.box h4{
+    color:rgba(255, 255, 255, 0.498);
+    position: relative;
+    left: -105px;
+    font-weight: 100;
+
+}
+.box:hover
+{
+    background-color: rgb(189, 61, 61);
+}
+#work
+{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
